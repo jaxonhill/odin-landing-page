@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.album {
+    height: 200px;
+    width: auto;
+}
+
+.header {
+    display: flex;
+    height: 50px;
+    background-color: #827081;
+    justify-content: space-between;
+}
