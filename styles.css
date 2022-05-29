@@ -80,9 +80,9 @@ body {
     font-size: 16px;
     width: 120px;
     padding: 5px;
-    background-color: #d1b3c4;
-    border: none;
-    border-radius: 5px;
+    background-color: #3d3240;
+    border: solid 2px #fff;
+    border-radius: 8px;
     font-weight: bold;
     color: #fff;
 }
@@ -98,17 +98,32 @@ h2 {
 .middle-one {
     display: flex;
     background-color: #F8F8F5;
-    padding: 50px 250px;
+    padding: 50px 250px 125px 250px;
     justify-content: center;
     gap: 50px;
+    border-bottom: solid 5px #3d3240;
 }
 
 .middle-two {
     display: flex;
-    background-color: #f7d1cd;
-    padding: 50px 250px;
+    flex-direction: column;
+    background-color: #EAEAE1;
+    padding: 150px 250px;
     justify-content: center;
-    gap: 50px;
+    align-items: center;
+    gap: 10px;
+    color: #3d3240;
+    border-bottom: solid 5px #3d3240;
+}
+
+.person {
+    align-self: flex-end;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.quote {
+    font-size: 40px;
 }
 
 .card {
