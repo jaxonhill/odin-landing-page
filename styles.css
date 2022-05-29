@@ -108,12 +108,50 @@ h2 {
     display: flex;
     flex-direction: column;
     background-color: #EAEAE1;
-    padding: 150px 250px;
+    padding: 150px 400px;
     justify-content: center;
     align-items: center;
     gap: 10px;
     color: #3d3240;
     border-bottom: solid 5px #3d3240;
+}
+
+.bottom-section {
+    background-color: #F8F8F5;
+    display: flex;
+    padding: 150px 250px;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta {
+    display: flex;
+    padding: 50px 150px;
+    flex: 1 1 auto;
+    justify-content: space-between;
+    background-color: #3d3240;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.cta p {
+    font-size: 18px;
+    color: #EAEAE1;
+}
+
+.cta p strong {
+    font-size: 30px;
+    color: #fff;
+}
+
+.cta button {
+    padding: 5px 30px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #3d3240;
+    border: solid 2px #fff;
+    border-radius: 10px;
 }
 
 .person {
