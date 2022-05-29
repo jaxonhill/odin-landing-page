@@ -129,8 +129,9 @@ h2 {
     padding: 50px 150px;
     flex: 1 1 auto;
     justify-content: space-between;
-    background-color: #3d3240;
+    background-color: #735d78;
     align-items: center;
+    border: solid 5px #3d3240;
     border-radius: 20px;
 }
 
@@ -149,8 +150,8 @@ h2 {
     font-size: 24px;
     font-weight: bold;
     color: #fff;
-    background-color: #3d3240;
-    border: solid 2px #fff;
+    background-color: #735d78;
+    border: solid 3px #fff;
     border-radius: 10px;
 }
 
